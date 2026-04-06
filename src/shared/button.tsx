@@ -1,6 +1,6 @@
 import { AnchorHTMLAttributes, ReactNode } from "react";
 
-type ButtonVariant = "primary" | "outline";
+type ButtonVariant = "primary" | "outline" | "contained";
 
 interface ButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   variant?: ButtonVariant;
@@ -11,6 +11,7 @@ interface ButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 const variantStyles: Record<ButtonVariant, string> = {
   primary: "bg-blue-600 hover:bg-blue-700",
   outline: "border border-zinc-700 hover:bg-zinc-900",
+  contained: "border border-white bg-white text-black",
 };
 
 export function Button({

@@ -10,11 +10,11 @@ export const ConteinerPrincipal = tw.div`
 `;
 
 export const Conteiner = tw.div`
-  text-xl
-  font-bold
   flex
   items-end
   gap-[1px]
+  text-[#71717b]
+  text-sm
 `;
 
 export const Nav = tw.nav`
