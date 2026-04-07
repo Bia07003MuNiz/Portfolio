@@ -19,7 +19,7 @@ const item = {
 export function SobreMim() {
   return (
     <div className="text-white py-20 flex items-center">
-      <section className="container mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-between gap-12 px-6 md:px-20">
+      <section className="container flex flex-col lg:flex-row items-center lg:items-start justify-between gap-12 px-6 md:px-20">
 
         <motion.div
           className="flex-1 w-full lg:text-left"
