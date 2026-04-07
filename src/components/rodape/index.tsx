@@ -1,16 +1,17 @@
-import { Curriculo } from "@/src/components/modal/curriculo";
-import { ConteinerPrincipal, Conteiner, Nav, Link, CirculoAzul } from "./styles";
-
 export function Rodape() {
     return (
-        <ConteinerPrincipal>
-            <Conteiner>
+        <div className="flex items-center justify-between px-6 md:px-20 py-6 flex-col md:flex-row">
+            <div className="flex items-end gap-[1px] text-[#71717b] text-sm hidden md:flex">
                 © 2026 Bianca Caroline. Todos os direitos reservados.
-            </Conteiner>
-            <div/>
-            <Conteiner>
+            </div>
+
+            <div className="flex items-end gap-[1px] text-[#71717b] text-sm hidden md:flex">
                 Feito com ❤️ e tecnologia moderna.
-            </Conteiner>
-        </ConteinerPrincipal>
+            </div>
+
+            <div className="flex items-center justify-center text-[#71717b] text-sm w-full md:hidden">
+                Feito com ❤️ e tecnologia moderna.
+            </div>
+        </div>
     )
 }

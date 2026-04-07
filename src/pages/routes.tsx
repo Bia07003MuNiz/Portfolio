@@ -12,7 +12,7 @@ const PaginaPrincipal = () => {
     <>
       <Cabecalho />
       <Home />
-      <section id="sobre" className="scroll-mt-35"><SobreMim /></section>
+      <section id="sobre" className="scroll-mt-10"><SobreMim /></section>
       <section id="habilidades" className="scroll-mt-20"><Habilidades /></section>
       <section id="projetos"><ProjetoDestaques /></section>
       <section id="experiencia" className="scroll-mt-10"><Experiencia /></section>

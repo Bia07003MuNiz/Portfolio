@@ -26,7 +26,7 @@ export function Habilidades() {
       <div className="absolute inset-0 bg-black/20 pointer-events-none" />
 
       <motion.section variants={container} initial="hidden" whileInView="show" viewport={{ once: true }} className="relative z-10 py-32 px-6 md:px-20 mx-auto">
-        <motion.h2 variants={item} className="md:text-6xl font-bold mb-2">Habilidades</motion.h2>
+        <motion.h2 variants={item} className="text-4xl md:text-6xl font-bold mb-2">Habilidades</motion.h2>
         <motion.p variants={item} className="text-zinc-400 text-md font-semibold mb-3">
           As tecnologias que uso para transformar ideias em realidade.
         </motion.p>
