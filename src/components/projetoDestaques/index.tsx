@@ -15,6 +15,14 @@ const projects = [
     live: "https://the-flashcards.vercel.app/",
   },
   {
+    image: "/images/devInsight.png",
+    tags: ["React", "Next.js","TypeScript", "Material UI", "Recharts", "Node.js", "PostgreSQL", "Docker", "Git API", "Tailwind CSS"],
+    title: "Dev Insight",
+    desc: "Plataforma full-stack que transforma dados do GitHub em métricas e scores de performance acionáveis. Permite análise e comparação visual de desenvolvedores, facilitando decisões para recrutadores e evolução técnica.",
+    github: "https://github.com/bianca-cs-muniz/Dev-Insight",
+    live: "https://dev-insight-io.vercel.app/",
+  },
+  {
     image: "/images/leilao.png",
     tags: ["Next.js", "TypeScript", "Material UI", "Node.js", "Express", "Prisma", "PostgreSQL", "Socket.IO", "Redis"],
     title: "Sistema de Leilão",
@@ -156,7 +164,7 @@ export const ProjetoDestaques = () => {
                         {p.desc}
                       </p>
 
-                      <div className="flex gap-3 mt-1">
+                      <div className="flex gap-3">
                         {p.github && (
                           <a
                             href={p.github}
@@ -174,9 +182,9 @@ export const ProjetoDestaques = () => {
                             href={p.live}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-zinc-600 hover:text-blue-400 transition-colors"
+                            className="text-zinc-600 hover:text-blue-400 transition-colors mt-1"
                           >
-                            <ExternalLink size={18} />
+                            <ExternalLink size={20} />
                           </a>
                         )}
                       </div>
